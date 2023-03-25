@@ -1,0 +1,122 @@
+.filters{
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px auto;
+}
+
+.projects-cards{
+    display: grid;
+    grid-template-columns:1fr;
+    gap: 30px;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.all-project .search{
+    width: min-content;
+    position: relative;
+} 
+
+.all-project .search input{
+    min-width: 250px;
+    max-width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid rgb(120, 119, 119);
+    padding: 10px;
+    outline: none;
+}
+
+.all-project .search_icon{
+    position: absolute;
+    top: 25%;
+    right: 20px;
+    color:rgb(156, 156, 156);
+}
+
+.container_paginate{ 
+    height: 40px;
+    margin: 40px auto;
+    padding: 0;
+    width: min-content;
+}
+
+.paginationBttns {
+    width: 90%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+    list-style: none;
+}
+
+
+.paginationBttns a{
+    height: 30px;
+    background: #c6b8f32f;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.paginationBttns a:hover {
+    transition: 300ms ease;
+    background: #719ef7;
+}
+
+.paginationBttns  .active_pagination{
+    border-radius: 0px;
+    border-bottom: 1px solid #1F2A40;
+}
+
+.previousBttns{
+    background-color:#719ef7c9;
+    border-radius: 2px;
+}
+
+.link-card{
+    text-decoration: none;
+}
+
+.cards-container{
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+}
+
+@media screen and (min-width:768px) {
+    .projects-cards{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px 40px;
+        width: 90%;
+        max-width: 1200px;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .filters{
+        width: 90%;
+        display: flex;
+        justify-content:flex-end;
+        margin: 20px auto;
+    }
+    
+    .projects-cards{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px 40px;
+        width: 90%;
+        max-width: 1200px;
+        margin: auto;
+    }
+    
+}

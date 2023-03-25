@@ -1,0 +1,82 @@
+.cards-projects{
+    min-width: 250px;
+    max-width: 320px;
+    margin: auto;
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: black;
+    border: 2px solid rgba(0, 0, 0, 0.114);
+}
+
+.cards-projects .title{
+    text-decoration: none;
+    margin-top: 60px;
+    font-size: 20px;
+}
+
+.specifications{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border-top: 1px solid rgba(0, 0, 0, 0.451);
+    width: 95%;
+    margin: 20px auto 0;
+    justify-content: space-around;
+    padding: 10px 0;
+    text-align: center;
+    height: 80px;
+}
+
+.specification:first-of-type{
+    border-right: 1px solid rgba(0, 0, 0, 0.451);
+}
+
+.specifications span{
+    font-size: 12px;
+}
+
+.container-image{
+    height: 160px;
+    width: 100%;
+    border-bottom: 4px solid #8A238C;
+}
+
+.container-image img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.cards-projects .circular-graphic{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    background-color: rgba(255, 255, 255, 0.714);
+    border-radius: 50%;
+    margin: auto;
+    top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+.cards-projects .circular-graphic h3{
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+} 
+
+.cards-projects .specifications p{
+    font-weight: bold;
+}
