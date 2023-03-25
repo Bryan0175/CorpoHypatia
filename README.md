@@ -13,6 +13,8 @@
     <br />
     <a href="https://5-corpohypatiapatia-corpohypatia-front-end.vercel.app/">Despligue de la aplicación</a>
     <br />
+    °
+    <br />
     <a href="https://brayanduarte.vercel.app/">Portafolio - Brayan Duarte</a>
   </p>
 </div>
