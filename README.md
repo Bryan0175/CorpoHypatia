@@ -8,7 +8,7 @@
   <h1 align="center">CORPOHYPATIA</h1>
 
   <p align="center">
-    Documentación FRONTEND
+    Documentación
     <br />
     <br />
     <a href="https://5-corpohypatiapatia-corpohypatia-front-end.vercel.app/">Despligue de la aplicación</a>
