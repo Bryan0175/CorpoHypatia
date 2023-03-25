@@ -14,16 +14,6 @@
     <a href="https://5-corpohypatiapatia-corpohypatia-front-end.vercel.app/">Despligue de la aplicación</a>
     <br />
     <a href="https://brayanduarte.vercel.app/">Brayan Duarte</a>
-    ·
-    <a href="https://github.com/AngelaDiaz20">Angela Diaz</a>
-    ·
-    <a href="#">Valentina Camacho</a>
-    ·
-    <a href="#">Ivan Muñoz</a>
-    ·
-    <a href="#">Jonathan Sánchez</a>
-    ·
-    <a href="https://github.com/Jlbejarano662">Jazmin Bejarano</a>
   </p>
 </div>
 
@@ -79,6 +69,18 @@ Esta sección tiene una lista de los principales frameworks/librerias/dependenci
 * <a href="https://reactrouter.com/en/main">![image](https://user-images.githubusercontent.com/50422794/224226751-4f41e53e-ac12-4a56-afe2-77e3a79f0849.png)</a>
 * <a href="https://styled-components.com/">![image](https://user-images.githubusercontent.com/50422794/224226826-83c7dee1-1f63-479e-a5e9-27ec880090b8.png)</a>
 * <a href="https://sweetalert2.github.io/#native_link#">![image](https://user-images.githubusercontent.com/50422794/224226953-a623b701-9936-4703-8912-146dba498f2c.png)</a>
+* <a href="https://nodejs.org/es/">![image](https://user-images.githubusercontent.com/50422794/215834151-4c767188-7bfa-406e-9967-9c07dc4f737f.png)</a>
+* <a href="https://jestjs.io/">![image](https://user-images.githubusercontent.com/50422794/224225170-f7d40b73-9d04-4cca-9403-ba8ba0ebb9f8.png)</a>
+* <a href="https://testing-library.com/">![image](https://user-images.githubusercontent.com/50422794/224225264-65731555-859b-412f-89df-660d357c92db.png)</a>
+* <a href="https://expressjs.com/es/">![image](https://user-images.githubusercontent.com/50422794/224217240-545381c4-9cbe-4e57-a68f-46e957f42e96.png)</a>
+* <a href="https://www.mongodb.com/">![image](https://user-images.githubusercontent.com/50422794/224217313-3bc5280e-8bec-469f-b245-c16757261950.png)</a>
+* <a href="https://www.npmjs.com/package/bcryptjs">![image](https://user-images.githubusercontent.com/50422794/224215696-3472debe-fcc5-4d5f-9ecb-206a804da505.png)</a>
+* <a href="https://www.npmjs.com/package/cors">![image](https://user-images.githubusercontent.com/50422794/224216254-58b34b97-ccbb-46a1-ac12-336786d80cbf.png)</a>
+* <a href="https://www.npmjs.com/package/dotenv">![image](https://user-images.githubusercontent.com/50422794/224216603-c62d9a17-1f42-46f9-8fa9-8b02e1be39e9.png)</a>
+* <a href="https://www.npmjs.com/package/jsonwebtoken">![image](https://user-images.githubusercontent.com/50422794/224216708-28736fcc-e14b-4266-84b7-66e3f49032ee.png)</a>
+* <a href="https://www.npmjs.com/package/multer">![image](https://user-images.githubusercontent.com/50422794/224216810-ed2ba4ca-9343-45f3-b7d9-2875d08bda2a.png)</a>
+* <a href="https://www.npmjs.com/package/nodemailer">![image](https://user-images.githubusercontent.com/50422794/224216897-8016b0b3-1696-483c-9eb4-1da51d8773b5.png)</a>
+* <a href="https://nodemon.io/">![image](https://user-images.githubusercontent.com/50422794/224217148-bcddc480-243c-4164-8600-acbf8991c010.png)</a>
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -86,7 +88,7 @@ Esta sección tiene una lista de los principales frameworks/librerias/dependenci
 
 ## Estructura de carpetas
 
-Para la estructura de carpetas se utilizo el patron de diseño MVC lo que significa Modelo - Vista - Controlador (Por obvias razones, la vista no aparece en esta estructura de carpetas, ya que se encuentra en la parte del frontend)
+Para la estructura de carpetas se utilizo el patron de diseño MVC lo que significa Modelo - Vista - Controlador
 
 ![image](https://user-images.githubusercontent.com/50422794/224224255-86755d46-155b-40b0-ade3-7669a3ff5189.png)
 
@@ -113,5 +115,35 @@ Para la estructura de carpetas se utilizo el patron de diseño MVC lo que signif
 * Styles
 
   Utilizamos la carpeta Styles para gestionar los estilos de la aplicación. Para esta carpeta no utilizamos hojas de estilo comun y corrientes, utilizamos una libreria que nos ayuda a generar componentes de estilos. Los style-components se organizan en diferentes archivos para diferentes partes de la aplicación y utilizamos variables para definir valores comunes que se pueden reutilizar.
+  
+![image](https://user-images.githubusercontent.com/50422794/224220711-c70679b4-041f-45bb-921d-dfd55930a8ad.png)
+
+* Controllers
+
+  Utilizamos la carpeta Controller para hacer de intermediario entre el modelo y la vista. Es el encargado de recibir las solicitudes del usuario, procesarlas y enviar la respuesta correspondiente. En una aplicación Node.js con Express, el controlador se implementó utilizando una serie de rutas que se definen en el archivo app.js.
+
+* DataBases
+
+  Utilizamos la carpeta DataBases para guardar archivos de configuración de bases de datos para tener un mejor control en las variables de entorno
+
+* Libraries
+
+  Utilizamos la carpeta Libraries para incluir módulos y/o paquetes personalizados que utilizamos en varias partes de la aplicación, así como archivos de configuración o utilidad que no encajan en ninguna otra carpeta de la aplicación. Sin embargo, el nombre y uso de esta carpeta puede variar según la preferencia del desarrollador o equipo de desarrollo.
+
+* Middlewares
+
+  Utilizamos la carpeta Middlewares ya que nos permitieron realizar tareas importantes antes o después de que se procesen las solicitudes de los usuarios. Se pueden definir a nivel de aplicación, enrutador o ruta, según las necesidades específicas de la aplicación.
+
+* Routes
+
+  Utilizamos la carpeta Routes Routes para separar la definición de las rutas de la lógica de los controladores, y así mantener una mejor organización de la aplicación.
+
+* (Models)Schemas
+
+  Utilizamos la carpeta Schemas para representar la estructura de datos de la aplicación. Ya que esta aplicacion fue hecha con Node.js y Express, el modelo se implemento utlizando una base de datos relacional MONGODB
+
+* App.js
+
+  En este archivo definimos las rutas de la aplicación utilizando el método de enrutamiento de Express.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
